@@ -52,13 +52,13 @@ ros2 run robot_description robot_controller.py
 ```bash
 table1,table2,table3
 ```
-![Screenshot from 2025-04-07 00-45-10](https://github.com/user-attachments/assets/5320782d-f7b8-4691-9ab6-7fe5d4cf698e)
+![Screenshot from 2025-04-07 00-48-23](https://github.com/user-attachments/assets/60848c0b-fa8f-4066-9566-5ba5f90c24ca)
 
 ### 4️⃣ Give input Confirm/Cancel:
 Once the node starts, it will listen for voice commands such as:
 ``"If Confirm"`` – Move towards tables for delivery
 ``"If Cancel"`` – Move towards Home
-![Screenshot from 2025-04-07 00-44-36](https://github.com/user-attachments/assets/be3ff4c0-7830-4149-975a-91cc3ce67091)
+![Screenshot from 2025-04-07 00-49-39](https://github.com/user-attachments/assets/af31bab0-0261-4eab-882f-a0a147b03aca)
 
 ---
 
