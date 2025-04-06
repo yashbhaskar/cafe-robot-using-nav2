@@ -34,13 +34,14 @@ source install/setup.bash
 
 ---
 
-### 1️⃣ Launch Gazebo and State_Publisher:
+### 1️⃣ Launch Robot:
 ```bash
-ros2 launch robot_description gazebo.launch.py
-ros2 launch robot_description state_publisher.launch.py
+ros2 launch robot_bringup autobringup.launch.py use_sim_time:=True exploration:=True
 ```
 ![Screenshot from 2025-03-02 02-38-27](https://github.com/user-attachments/assets/84597889-09bd-4ac2-ad3b-f2dba351bae5)
 ![Screenshot from 2025-03-02 02-39-27](https://github.com/user-attachments/assets/8ef47259-9354-41f7-88e6-0e2f0b051700)
+![Screenshot from 2025-04-07 00-45-10](https://github.com/user-attachments/assets/c3383dea-c929-4fba-9eae-25f1c5428f9a)
+![Screenshot from 2025-04-07 00-44-36](https://github.com/user-attachments/assets/5152c2b9-fd25-411d-a23b-eed98569a302)
 
 ### 2️⃣ Run the Robot Controller Command Node:
 ```bash
@@ -51,13 +52,13 @@ ros2 run robot_description robot_controller.py
 ```bash
 table1,table2,table3
 ```
-![Screenshot from 2025-03-02 02-42-27](https://github.com/user-attachments/assets/62d263ae-bd8f-44b9-8d6f-c698fe49207e)
+![Screenshot from 2025-04-07 00-45-10](https://github.com/user-attachments/assets/b92f8648-11ef-4255-8da8-684965898407)
 
 ### 4️⃣ Give input Confirm/Cancel:
 Once the node starts, it will listen for voice commands such as:
 ``"If Confirm"`` – Move towards tables for delivery
 ``"If Cancel"`` – Move towards Home
-![Screenshot from 2025-03-02 02-43-51](https://github.com/user-attachments/assets/b6c0c0b1-d167-4890-bde1-5d54251bb14e)
+![Screenshot from 2025-04-07 00-44-36](https://github.com/user-attachments/assets/6910d347-7036-41a1-8554-d3eb9c8e429a)
 
 ---
 
